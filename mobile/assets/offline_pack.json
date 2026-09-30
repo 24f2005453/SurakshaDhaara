@@ -1,0 +1,49 @@
+{
+  "areaId": "DEMO-01",
+  "version": "2026-09-25.2",
+  "generatedAt": "2026-09-25T00:00:00Z",
+  "expiresAt": "2026-09-26T00:00:00Z",
+
+  "shelters": [
+    {
+      "id": "S1",
+      "name": "Demo Shelter A",
+      "lat": 13.0827,
+      "lon": 80.2708,
+      "capacity": 500,
+      "occupancy": 120,
+      "status": "OPEN"
+    },
+    {
+      "id": "S2",
+      "name": "Demo Shelter B",
+      "lat": 13.0860,
+      "lon": 80.2708,
+      "capacity": 250,
+      "occupancy": 245,
+      "status": "OPEN"
+    }
+  ],
+
+  "roadNodes": [
+    {"id": "N1", "lat": 13.0808, "lon": 80.2700},
+    {"id": "N2", "lat": 13.0820, "lon": 80.2700},
+    {"id": "N3", "lat": 13.0832, "lon": 80.2700},
+    {"id": "N4", "lat": 13.0832, "lon": 80.2720},
+    {"id": "N5", "lat": 13.0832, "lon": 80.2735},
+    {"id": "N6", "lat": 13.0848, "lon": 80.2735},
+    {"id": "N7", "lat": 13.0860, "lon": 80.2735}
+  ],
+
+  "roads": [
+    {"id":"R1","from":"N1","to":"N2","distanceM":135,"riskScore":0.0,"blocked":false},
+    {"id":"R2","from":"N2","to":"N3","distanceM":135,"riskScore":0.0,"blocked":false},
+    {"id":"R3","from":"N3","to":"N4","distanceM":190,"riskScore":0.1,"blocked":false},
+    {"id":"R4","from":"N4","to":"N5","distanceM":165,"riskScore":0.0,"blocked":false},
+    {"id":"R5","from":"N5","to":"N6","distanceM":205,"riskScore":0.0,"blocked":false},
+    {"id":"R6","from":"N6","to":"N7","distanceM":135,"riskScore":0.0,"blocked":false},
+    {"id":"R7","from":"N3","to":"N6","distanceM":300,"riskScore":0.0,"blocked":false}
+  ],
+
+  "hazards": []
+}

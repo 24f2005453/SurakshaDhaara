@@ -1,0 +1,12 @@
+{
+  "areaId": "DEMO-01",
+  "version": "2026-09-24.1",
+  "generatedAt": "2026-09-24T00:00:00Z",
+  "expiresAt": "2026-09-25T00:00:00Z",
+  "shelters": [
+    {"id":"S1","name":"Demo Shelter A","lat":13.0827,"lon":80.2707,"capacity":500,"occupancy":120,"status":"OPEN"},
+    {"id":"S2","name":"Demo Shelter B","lat":13.0860,"lon":80.2740,"capacity":250,"occupancy":245,"status":"OPEN"}
+  ],
+  "hazards": [],
+  "roads": []
+}

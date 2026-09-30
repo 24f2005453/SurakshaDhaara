@@ -1,0 +1,185 @@
+# ==========================================
+# UrbanGuard - Git Ignore
+# ==========================================
+
+# ------------------------------------------
+# Flutter / Dart
+# ------------------------------------------
+**/.dart_tool/
+**/build/
+**/.flutter-plugins
+**/.flutter-plugins-dependencies
+**/.packages
+**/pubspec.lock
+**/.dart_tool.zip
+
+# Local Flutter SDK - do NOT commit
+/flutter/
+
+# ------------------------------------------
+# Android
+# ------------------------------------------
+**/.gradle/
+**/android/.gradle/
+**/android/local.properties
+**/android/key.properties
+**/*.jks
+**/*.keystore
+
+# ------------------------------------------
+# iOS
+# ------------------------------------------
+**/ios/Flutter/ephemeral/
+**/ios/Flutter/.last_build_id
+**/ios/Pods/
+
+# ------------------------------------------
+# macOS
+# ------------------------------------------
+**/macos/Pods/
+
+# ------------------------------------------
+# Windows
+# ------------------------------------------
+**/windows/flutter/ephemeral/
+
+# ------------------------------------------
+# Linux
+# ------------------------------------------
+**/linux/flutter/ephemeral/
+
+# ------------------------------------------
+# Python
+# ------------------------------------------
+**/.venv/
+**/venv/
+**/__pycache__/
+**/*.py[cod]
+**/.pytest_cache/
+**/.mypy_cache/
+**/.ruff_cache/
+
+# ------------------------------------------
+# Python generated files / logs
+# ------------------------------------------
+*.log
+*.pyc
+*.pyo
+*.pyd
+
+# ------------------------------------------
+# IDE
+# ------------------------------------------
+.vscode/
+.idea/
+*.iml
+
+# ------------------------------------------
+# OS files
+# ------------------------------------------
+.DS_Store
+Thumbs.db
+Desktop.ini
+
+# ------------------------------------------
+# Secrets / environment
+# ------------------------------------------
+.env
+.env.*
+!.env.example
+
+# ------------------------------------------
+# Local databases / runtime data
+# ------------------------------------------
+**/*.db
+**/*.sqlite
+**/*.sqlite3
+
+# ------------------------------------------
+# QGIS temporary / lock files
+# ------------------------------------------
+**/*.qgz~
+**/*.qgs~
+**/*.gpkg-wal
+**/*.gpkg-shm
+**/*.gpkg-journal
+**/*.qgd
+**/*.qgd-shm
+**/*.qgd-wal
+
+# ------------------------------------------
+# Large raw OSM / GIS datasets
+# ------------------------------------------
+data/osm/**/*.gpkg
+data/osm/**/*.geojson
+data/osm/**/*.shp
+data/osm/**/*.shx
+data/osm/**/*.dbf
+data/osm/**/*.prj
+data/osm/**/*.cpg
+data/osm/**/*.gpkg.zip
+data/osm/**/*.zip
+
+# ------------------------------------------
+# Generated GIS exports
+# ------------------------------------------
+**/*_raw.gpkg
+**/*_split.gpkg
+**/*_joined.gpkg
+**/*_starts.gpkg
+**/*_network.gpkg
+**/*_nodes.gpkg
+**/*_edges.gpkg
+**/*_roads.gpkg
+**/*_water.gpkg
+**/*_land.gpkg
+
+# ------------------------------------------
+# Archives / generated packages
+# ------------------------------------------
+backend/backend.zip
+**/.dart_tool.zip
+*.zip
+
+# ------------------------------------------
+# Temporary files
+# ------------------------------------------
+*.tmp
+*.temp
+*.bak
+*.swp
+*.swo
+*~
+
+# ------------------------------------------
+# Coverage / test output
+# ------------------------------------------
+coverage/
+test/coverage/
+
+# ------------------------------------------
+# Node / JavaScript generated files
+# ------------------------------------------
+**/node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# ------------------------------------------
+# Build / distribution output
+# ------------------------------------------
+dist/
+out/
+release/
+
+# ------------------------------------------
+# Firebase / generated configuration
+# ------------------------------------------
+**/firebase-debug.log
+**/.firebase/
+
+# ------------------------------------------
+# Local development files
+# ------------------------------------------
+.local/
+.local.*
